@@ -12,19 +12,16 @@ class SecretScreen: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
-    */
 
+    @IBAction func photosButton(_ sender: Any) {
+        performSegue(withIdentifier: "goToPhotos", sender: nil)
+    }
+    @IBAction func videosButton(_ sender: Any) {
+        print("Videos Button Clicked")
+    }
 }

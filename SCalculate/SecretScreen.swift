@@ -1,5 +1,5 @@
 //
-//  Buttons.swift
+//  SecretScreen.swift
 //  SCalculate
 //
 //  Created by Erim Şengezer on 27.08.2019.
@@ -7,5 +7,3 @@
 //
 
 import Foundation
-
-class Buttons 
