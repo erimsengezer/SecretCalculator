@@ -22,6 +22,6 @@ class SecretScreen: UIViewController {
         performSegue(withIdentifier: "goToPhotos", sender: nil)
     }
     @IBAction func videosButton(_ sender: Any) {
-        print("Videos Button Clicked")
+        print("Videos Button Clicked ")
     }
 }
