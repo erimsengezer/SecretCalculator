@@ -69,7 +69,7 @@
 		E54E69BA23153739002D8195 /* SCalculateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCalculateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54E69BE23153739002D8195 /* SCalculateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCalculateUITests.swift; sourceTree = "<group>"; };
 		E54E69C023153739002D8195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E54E69D0231574A6002D8195 /* SecretScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecretScreen.swift; path = ../SecretScreen.swift; sourceTree = "<group>"; };
+		E54E69D0231574A6002D8195 /* SecretScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretScreen.swift; sourceTree = "<group>"; };
 		E5BB6DCB231ED74000D56503 /* GSImageViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSImageViewerController.swift; sourceTree = "<group>"; };
 		E5C58DD9231EBCE70057BA64 /* DetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPage.swift; sourceTree = "<group>"; };
 		E5C58DDB231EBFB80057BA64 /* deleteIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteIcon.png; sourceTree = "<group>"; };
@@ -123,12 +123,9 @@
 		E54E699A23153737002D8195 /* SCalculate */ = {
 			isa = PBXGroup;
 			children = (
+				E58B87202327B2CE005F3776 /* Screens */,
 				E5BB6DCB231ED74000D56503 /* GSImageViewerController.swift */,
 				E54E699B23153737002D8195 /* AppDelegate.swift */,
-				E54E699D23153737002D8195 /* ViewController.swift */,
-				E54E69D0231574A6002D8195 /* SecretScreen.swift */,
-				E518E5B423159C3900743304 /* PhotoScreen.swift */,
-				E5C58DD9231EBCE70057BA64 /* DetailPage.swift */,
 				E518E5B223159BC300743304 /* PhotoCell.swift */,
 				E54E699F23153737002D8195 /* Main.storyboard */,
 				E54E69A523153739002D8195 /* Assets.xcassets */,
@@ -162,6 +159,17 @@
 				E54E69C023153739002D8195 /* Info.plist */,
 			);
 			path = SCalculateUITests;
+			sourceTree = "<group>";
+		};
+		E58B87202327B2CE005F3776 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E54E699D23153737002D8195 /* ViewController.swift */,
+				E518E5B423159C3900743304 /* PhotoScreen.swift */,
+				E54E69D0231574A6002D8195 /* SecretScreen.swift */,
+				E5C58DD9231EBCE70057BA64 /* DetailPage.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
